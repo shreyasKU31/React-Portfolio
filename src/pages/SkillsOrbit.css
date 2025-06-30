@@ -1,0 +1,33 @@
+.orbit {
+  border: 1px solid rgba(255, 215, 0, 0.3); /* Soft gold orbit */
+  border-radius: 50%;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.orbit-normal {
+  animation-name: rotate-orbit;
+}
+
+.orbit-reverse {
+  animation-name: rotate-orbit-reverse;
+}
+
+@keyframes rotate-orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-orbit-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
