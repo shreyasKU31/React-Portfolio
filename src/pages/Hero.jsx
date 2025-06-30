@@ -5,6 +5,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { FaDownload, FaEnvelope } from "react-icons/fa";
 import Name from "../components/Name";
+import assets from "../assets/assets";
 
 export default function Hero() {
   const skills = [
@@ -69,7 +70,7 @@ export default function Hero() {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 mt-10">
         <div className="w-1/2 max-md:w-2/3 max-sm:w-full aspect-video rounded-xl border-[3px] border-[#FFD700] shadow-[0_0_40px_#FFD700aa] animate-float overflow-hidden">
           <img
-            src="/src/assets/Image.jpeg"
+            src={assets.image}
             alt="Badsha"
             className="w-full h-full object-cover"
           />

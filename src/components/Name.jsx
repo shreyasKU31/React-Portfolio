@@ -1,4 +1,4 @@
-import "./Name.css";
+// import "/public/Name.css";
 
 export default function Name({
   children,

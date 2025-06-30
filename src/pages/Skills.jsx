@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "./SkillsOrbit.css";
+// import "/public/SkillsOrbit.css";
 
 import {
   FaHtml5,
   FaCss3Alt,
   FaBootstrap,
-  FaJs,
   FaReact,
   FaNodeJs,
   FaDocker,
