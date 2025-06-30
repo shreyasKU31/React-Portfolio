@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+import assets from "../assets/assets.js";
+
 // import "/public/Projects.css";
 
 const projects = [
   {
     className: "Kandl",
     title: "Kandl",
-    img: "/src/assets/kandl.jpeg",
+    img: assets.kandl,
     description: "Modern brokerage UI with analytics dashboard.",
     skills: ["React", "NodeJS", "MongoDB", "Express"],
     problem: "Complex brokerage platforms confuse users.",
@@ -16,7 +18,7 @@ const projects = [
   {
     className: "LogicLink",
     title: "Logic Link AI",
-    img: "/src/assets/logicLink.jpeg",
+    img: assets.logicLinkAI,
     description: "AI Chat bot uses GIMINI to answer queries.",
     skills: ["React", "Node.js"],
     problem: "Farmers lack tech-driven crop prediction tools.",
@@ -27,7 +29,7 @@ const projects = [
   {
     className: "Priscripto",
     title: "Priscripto",
-    img: "/src/assets/priscripto.jpeg",
+    img: assets.priscripto,
     description: "Doctor appointment booking platform.",
     skills: ["MongoDB", "Express", "React"],
     problem: "Manual appointment systems are outdated.",
@@ -38,7 +40,7 @@ const projects = [
   {
     className: "Netflix",
     title: "Netflix Clone",
-    img: "/src/assets/netflix.png",
+    img: assets.netflix,
     description: "A Netflix UI/UX clone with full streaming UI.",
     skills: ["HTML5", "CSS"],
     problem: "Learn modern media streaming UIs.",
@@ -49,7 +51,7 @@ const projects = [
   {
     className: "EliteStays",
     title: "Elite Stays",
-    img: "/src/assets/es.jpeg",
+    img: assets.eliteStays,
     description: "Airbnb-style modern housing platform.",
     skills: ["React", "Node.js", "MongoDB"],
     problem: "Finding stays lacks good UI and filters.",
@@ -60,7 +62,7 @@ const projects = [
   {
     className: "Dharani",
     title: "Dharani",
-    img: "/src/assets/dharani.png",
+    img: assets.dharani,
     description: "Smart agriculture platform with AI voice support.",
     skills: ["ML", "IoT", "React"],
     problem: "Lack of automation in farming.",
@@ -71,7 +73,7 @@ const projects = [
   {
     className: "WeatherApp",
     title: "Weather App",
-    img: "/src/assets/weather.png",
+    img: assets.weatherApp,
     description: "Live weather updates based on location.",
     skills: ["React", "API"],
     problem: "Quick access to weather data is difficult.",
@@ -82,7 +84,7 @@ const projects = [
   {
     className: "TodoApp",
     title: "Todo App",
-    img: "/src/assets/todo.png",
+    img: assets.todoApp,
     description: "Task manager with CRUD features.",
     skills: ["React"],
     problem: "Lack of organized task planning.",

@@ -1,58 +1,59 @@
 import { useState } from "react";
+import certificatesImg from "../assets/certificates/certificates";
 
 const certificates = [
   {
     title: "UI/UX Design by Google",
     org: "Google",
-    image: "/src/assets/certificates/UIUXCourse-1-.jpeg",
+    image: certificatesImg.googleuiux,
     link: "/certificates/uiux-google.png",
   },
   {
     title: "Full Stack Developer",
     org: "Apna College",
-    image: "/src/assets/certificates/SIGMAFullstack-.jpeg",
+    image: certificatesImg.sigma,
     link: "/certificates/fullstack-fcc.png",
   },
   {
     title: "C - Programming",
     org: "V-Tech Solutions",
-    image: "/src/assets/certificates/CProgramming.jpg",
+    image: certificatesImg.cprogramme,
     link: "/certificates/ethical-hacking.png",
   },
   {
     title: "DSA in CPP",
     org: "Code Chef",
-    image: "/src/assets/certificates/CCDSA-.jpeg",
+    image: certificatesImg.cppdsa,
     link: "/certificates/ethical-hacking.png",
   },
   {
     title: "Internship in Campalin",
     org: "Campalin",
-    image: "/src/assets/certificates/Campalin-.jpeg",
+    image: certificatesImg.Campalin,
     link: "/certificates/ethical-hacking.png",
   },
   {
     title: "C++ Tutorial",
     org: "Code Chef",
-    image: "/src/assets/certificates/CCC-.jpeg",
+    image: certificatesImg.ccc,
     link: "/certificates/ethical-hacking.png",
   },
   {
     title: "Figma Design",
     org: "Udemy",
-    image: "/src/assets/certificates/FigmaCertification-.jpeg",
+    image: certificatesImg.figma,
     link: "/certificates/ethical-hacking.png",
   },
   {
     title: "Innovate Intern Internship",
     org: "Innovate Intern",
-    image: "/src/assets/certificates/InnovateIntern-.jpeg",
+    image: certificatesImg.innovate,
     link: "/certificates/ethical-hacking.png",
   },
   {
     title: "JavaScript",
     org: "Code Chef",
-    image: "/src/assets/certificates/Javascript-.jpeg",
+    image: certificatesImg.js,
     link: "/certificates/ethical-hacking.png",
   },
 ];
