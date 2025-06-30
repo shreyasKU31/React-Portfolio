@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import assets from "../assets/assets";
 
 export default function Cursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -53,20 +54,12 @@ export default function Cursor() {
       >
         {isHovering ? (
           <div className="relative w-12 h-12">
-            <img
-              src="/src/assets/ufo.webp"
-              className="w-full h-full"
-              alt="UFO"
-            />
+            <img src={assets.ufo} className="w-full h-full" alt="UFO" />
             <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-6 h-20 bg-yellow-300 opacity-30 blur-lg rotate-3 origin-top rounded-lg"></div>
           </div>
         ) : (
           <div className="relative w-10 h-10">
-            <img
-              src="/src/assets/rocket.png"
-              className="w-full h-full"
-              alt="Rocket"
-            />
+            <img src={assets.rocket} className="w-full h-full" alt="Rocket" />
             <motion.div
               className="absolute top-full left-1/2 transform -translate-x-1/2 rounded-full origin-top"
               animate={{
